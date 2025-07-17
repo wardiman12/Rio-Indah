@@ -1,0 +1,44 @@
+body {
+    background-color: #fbfaf5;
+}
+
+* {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.invitation {
+    background-image: url('../dist/assets/bg-paper3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-image: url('../dist/assets/bg-paper2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.font-formal {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-rait {
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #295484;
+}
+
+/* reveal.js */
+
+.slides .scroll-page {
+    background: none !important;
+}
